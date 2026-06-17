@@ -1,0 +1,52 @@
+{
+  "site": {
+    "name": "Luciane Ramos-Silva",
+    "tagline": "Body in diaspora",
+    "role": "Dancer · choreographer · anthropologist"
+  },
+  "landing": {
+    "preamble": "Two essays on the same body",
+    "doors": {
+      "a": {
+        "title": "Polyrhythm",
+        "hint": "The body fragmented across different tempos"
+      },
+      "b": {
+        "title": "Caption of the body",
+        "hint": "Where text serves the image"
+      }
+    },
+    "footnote": "choose a door — you can switch any time"
+  },
+  "sections": {
+    "bio": "Bio",
+    "works": "Works",
+    "performances": "Performances",
+    "research": "Research",
+    "publications": "Publications",
+    "menelick": "Menelick 2nd Act",
+    "teaching": "Teaching",
+    "agenda": "Agenda",
+    "contact": "Contact"
+  },
+  "bio": {
+    "short": "Dancer, choreographer, anthropologist and cultural organizer. Faculty member at the Institute of Arts, Unicamp. PhD in Performing Arts with research on the Senegalese choreographer Germaine Acogny.",
+    "long": "Works between Brazil, West Africa, and the United States. Artistic director of Diaspóros Coletivo das Artes (São Paulo), co-editor of the journal O Menelick 2º Ato, and guest artist with Anikaya Dance Theater (Boston). Her work investigates the relationships between body, culture, and coloniality, with emphasis on counter-colonial thought and epistemologies produced in non-hegemonic territories."
+  },
+  "a": {
+    "title": "Polyrhythm",
+    "kicker": "concept a · body loops"
+  },
+  "b": {
+    "title": "Caption of the body",
+    "kicker": "concept b · continuous video",
+    "scrollHint": "scroll to continue",
+    "soundOn": "sound on",
+    "soundOff": "sound off"
+  },
+  "ui": {
+    "back": "back",
+    "switchTo": "go to",
+    "year": "2026"
+  }
+}

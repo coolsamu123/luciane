@@ -1,0 +1,15 @@
+{
+  "source": "/home/ubuntu/Downloads/download",
+  "clips": [
+    { "name": "bio",          "start": "00:01:20", "duration": "3.2", "loop": true },
+    { "name": "works",        "start": "00:03:15", "duration": "4.7", "loop": true },
+    { "name": "performances", "start": "00:05:40", "duration": "2.1", "loop": true },
+    { "name": "research",     "start": "00:08:10", "duration": "5.8", "loop": true },
+    { "name": "publications", "start": "00:10:25", "duration": "3.5", "loop": true },
+    { "name": "menelick",     "start": "00:12:00", "duration": "6.4", "loop": true },
+    { "name": "teaching",     "start": "00:13:45", "duration": "2.9", "loop": true },
+    { "name": "agenda",       "start": "00:15:30", "duration": "4.1", "loop": true },
+    { "name": "contact",      "start": "00:17:00", "duration": "7.3", "loop": true },
+    { "name": "b-long",       "start": "00:02:00", "duration": "120", "loop": false }
+  ]
+}

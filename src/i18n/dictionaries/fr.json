@@ -1,0 +1,52 @@
+{
+  "site": {
+    "name": "Luciane Ramos-Silva",
+    "tagline": "Corps en diaspora",
+    "role": "Danseuse · chorégraphe · anthropologue"
+  },
+  "landing": {
+    "preamble": "Deux essais sur un même corps",
+    "doors": {
+      "a": {
+        "title": "Polyrythmie",
+        "hint": "Le corps fragmenté en tempos différents"
+      },
+      "b": {
+        "title": "Sous-titre du corps",
+        "hint": "Où le texte sert l'image"
+      }
+    },
+    "footnote": "choisissez une porte — vous pouvez changer à tout moment"
+  },
+  "sections": {
+    "bio": "Bio",
+    "works": "Œuvres",
+    "performances": "Performances",
+    "research": "Recherche",
+    "publications": "Publications",
+    "menelick": "Menelick 2e Acte",
+    "teaching": "Enseignement",
+    "agenda": "Agenda",
+    "contact": "Contact"
+  },
+  "bio": {
+    "short": "Danseuse, chorégraphe, anthropologue et organisatrice culturelle. Enseignante à l'Institut des Arts de l'Unicamp. Docteure en Arts de la Scène avec une thèse sur la chorégraphe sénégalaise Germaine Acogny.",
+    "long": "Elle travaille entre le Brésil, l'Afrique de l'Ouest et les États-Unis. Directrice artistique du Diaspóros Coletivo das Artes (São Paulo), co-éditrice de la revue O Menelick 2º Ato et artiste invitée de la Anikaya Dance Theater (Boston). Son travail explore les rapports entre corps, culture et colonialité, en mettant l'accent sur les pensées contre-coloniales et les épistémologies produites dans des territoires non hégémoniques."
+  },
+  "a": {
+    "title": "Polyrythmie",
+    "kicker": "concept a · boucles de corps"
+  },
+  "b": {
+    "title": "Sous-titre du corps",
+    "kicker": "concept b · vidéo continue",
+    "scrollHint": "faire défiler pour continuer",
+    "soundOn": "son activé",
+    "soundOff": "son désactivé"
+  },
+  "ui": {
+    "back": "retour",
+    "switchTo": "aller à",
+    "year": "2026"
+  }
+}

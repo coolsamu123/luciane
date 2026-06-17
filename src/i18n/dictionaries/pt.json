@@ -1,0 +1,52 @@
+{
+  "site": {
+    "name": "Luciane Ramos-Silva",
+    "tagline": "Corpo em diáspora",
+    "role": "Bailarina · coreógrafa · antropóloga"
+  },
+  "landing": {
+    "preamble": "Dois ensaios sobre um mesmo corpo",
+    "doors": {
+      "a": {
+        "title": "Polirritmia",
+        "hint": "O corpo fragmentado em tempos diferentes"
+      },
+      "b": {
+        "title": "Legenda do corpo",
+        "hint": "Onde o texto serve à imagem"
+      }
+    },
+    "footnote": "escolha uma porta — você pode trocar a qualquer momento"
+  },
+  "sections": {
+    "bio": "Bio",
+    "works": "Obras",
+    "performances": "Performances",
+    "research": "Pesquisa",
+    "publications": "Publicações",
+    "menelick": "Menelick 2º Ato",
+    "teaching": "Ensino",
+    "agenda": "Agenda",
+    "contact": "Contato"
+  },
+  "bio": {
+    "short": "Bailarina, coreógrafa, antropóloga e organizadora cultural. Docente do Instituto de Artes da Unicamp. Doutora em Artes da Cena pela mesma instituição, com pesquisa sobre a coreógrafa senegalesa Germaine Acogny.",
+    "long": "Atua entre o Brasil, África Ocidental e os Estados Unidos. Diretora artística do Diaspóros Coletivo das Artes (São Paulo), co-editora da revista O Menelick 2º Ato e artista convidada da Anikaya Dance Theater (Boston). Seu trabalho explora as relações entre corpo, cultura e colonialidade, com ênfase em pensamentos contra-coloniais e epistemologias produzidas em territórios não hegemônicos."
+  },
+  "a": {
+    "title": "Polirritmia",
+    "kicker": "concept a · loops de corpo"
+  },
+  "b": {
+    "title": "Legenda do corpo",
+    "kicker": "concept b · vídeo contínuo",
+    "scrollHint": "role para continuar",
+    "soundOn": "som ligado",
+    "soundOff": "som desligado"
+  },
+  "ui": {
+    "back": "voltar",
+    "switchTo": "ir para",
+    "year": "2026"
+  }
+}
