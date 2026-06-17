@@ -19,8 +19,7 @@ export default async function Page({
     { id: "bio",     kicker: "02 · " + d.sections.bio,        body: d.bio.short },
     { id: "long",    kicker: "03 · " + d.sections.research,   body: d.bio.long },
     { id: "works",   kicker: "04 · " + d.sections.works,      body: "Eyes at my back and a smile at the corner of my lips · 2015 / 2023" },
-    { id: "menelick",kicker: "05 · " + d.sections.menelick,   body: "O Menelick 2º Ato" },
-    { id: "contact", kicker: "06 · " + d.sections.contact,    body: "luciane2@unicamp.br" },
+    { id: "contact", kicker: "05 · " + d.sections.contact,    body: "luciane2@unicamp.br" },
   ];
 
   return (
