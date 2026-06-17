@@ -90,7 +90,7 @@ export function BReader({
                     ? "font-serif text-bone text-[clamp(2.5rem,7vw,5.5rem)] leading-[0.95] tracking-tightest"
                     : s.italic
                       ? "font-serif italic text-bone/90 text-3xl md:text-4xl"
-                      : "font-serif text-bone/90 text-xl md:text-2xl leading-snug text-balance"
+                      : "font-serif text-bone/90 text-2xl md:text-4xl leading-snug text-balance"
                 }
               >
                 {s.body}
