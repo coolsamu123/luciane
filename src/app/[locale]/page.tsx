@@ -3,6 +3,7 @@ import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import { isLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dict";
 import { BReader } from "@/components/BReader";
+import { withBase } from "@/lib/path";
 
 export default async function Page({
   params,
@@ -24,6 +25,11 @@ export default async function Page({
 
   return (
     <main className="relative min-h-svh bg-ink">
+      <link
+        rel="preload"
+        as="image"
+        href={withBase("/posters/b-loop.jpg")}
+      />
       <header className="fixed top-0 left-0 right-0 z-30 flex items-baseline justify-between p-6 md:p-8 mix-blend-difference">
         <span className="font-mono text-[11px] uppercase tracking-widest text-bone">
           {d.site.role}
@@ -33,11 +39,7 @@ export default async function Page({
 
       <BReader
         sections={sections}
-        labels={{
-          scrollHint: d.b.scrollHint,
-          soundOn: d.b.soundOn,
-          soundOff: d.b.soundOff,
-        }}
+        labels={{ scrollHint: d.b.scrollHint }}
       />
     </main>
   );

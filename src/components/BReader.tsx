@@ -13,8 +13,6 @@ type Section = {
 
 type Labels = {
   scrollHint: string;
-  soundOn: string;
-  soundOff: string;
 };
 
 export function BReader({
@@ -25,10 +23,8 @@ export function BReader({
   labels: Labels;
 }) {
   const [active, setActive] = useState(0);
-  const [muted, setMuted] = useState(true);
   const [progress, setProgress] = useState(0);
   const refs = useRef<(HTMLElement | null)[]>([]);
-  const videoRef = useRef<HTMLVideoElement | null>(null);
 
   useEffect(() => {
     const onScroll = () => {
@@ -57,14 +53,10 @@ export function BReader({
     return () => io.disconnect();
   }, []);
 
-  useEffect(() => {
-    if (videoRef.current) videoRef.current.muted = muted;
-  }, [muted]);
-
   return (
     <>
       <div className="fixed inset-0 z-0">
-        <VideoPlaceholder videoRef={videoRef} />
+        <BackgroundVideo />
         <div className="absolute inset-0 bg-gradient-to-b from-ink/30 via-ink/50 to-ink/80" />
       </div>
 
@@ -121,13 +113,6 @@ export function BReader({
         </span>
       </aside>
 
-      <button
-        onClick={() => setMuted((m) => !m)}
-        className="fixed bottom-5 right-5 z-30 font-mono text-[11px] uppercase tracking-widest text-bone/70 hover:text-bone transition-colors"
-      >
-        {muted ? `◎ ${labels.soundOff}` : `● ${labels.soundOn}`}
-      </button>
-
       {active === 0 && (
         <div className="fixed bottom-5 left-1/2 -translate-x-1/2 z-20 font-mono text-[10px] uppercase tracking-widest text-bone/40 animate-pulse">
           {labels.scrollHint} ↓
@@ -137,15 +122,10 @@ export function BReader({
   );
 }
 
-function VideoPlaceholder({
-  videoRef,
-}: {
-  videoRef: React.RefObject<HTMLVideoElement | null>;
-}) {
+function BackgroundVideo() {
   return (
     <div className="absolute inset-0 b-placeholder">
       <video
-        ref={videoRef}
         className="absolute inset-0 h-full w-full object-cover"
         poster={withBase("/posters/b-loop.jpg")}
         muted
@@ -156,12 +136,12 @@ function VideoPlaceholder({
         disablePictureInPicture
       >
         <source
-          src={withBase("/clips/b-loop-720.mp4")}
+          src={withBase("/clips/b-loop.v2-720.mp4")}
           type="video/mp4"
           media="(min-width: 768px)"
         />
         <source
-          src={withBase("/clips/b-loop-480.mp4")}
+          src={withBase("/clips/b-loop.v2-480.mp4")}
           type="video/mp4"
         />
       </video>
