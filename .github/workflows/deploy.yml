@@ -29,8 +29,6 @@ jobs:
 
       - name: Build static export
         run: npm run build
-        env:
-          NEXT_PUBLIC_BASE_PATH: /luciane
 
       - name: Add .nojekyll
         run: touch out/.nojekyll
